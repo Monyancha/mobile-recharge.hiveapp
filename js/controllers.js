@@ -14,8 +14,9 @@ mobileRechargeApp.controller('mobileRechargeCtrl', ['$scope', '$http', '$sce', '
     };
     $scope.setCountry = function(c) {
       if($scope.number && c.prefix) {
+        var prev = $scope.prefix;
         var regexp = new RegExp("^[^0-9]*"+ c.prefix);
-        $scope.number = ($scope.prefix+$scope.number).replace(regexp, "");
+        $scope.number = ($scope.prefix+$scope.number).replace(regexp, "").replace(prev, "");
       }
       $scope.prefix = c.prefix?"+"+c.prefix:"";
       $scope.countryCode = c.id;
