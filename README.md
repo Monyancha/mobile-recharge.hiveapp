@@ -2,7 +2,7 @@
 see [Hive wallet](https://github.com/hivewallet/)
 
 ##To install it for your hive-wallet
-Grab [latest release](https://github.com/s-a-y/mobile-recharge.hiveapp/releases/download/v1.0.4/mobile-recharge.hiveapp)
+Grab [latest release](https://github.com/umbrellab/mobile-recharge.hiveapp/releases/download/1.0.4/mobile-recharge.hiveapp)
 double-click the downloaded file in Finder and confirm the action in Hive
 
 ##For developers:
