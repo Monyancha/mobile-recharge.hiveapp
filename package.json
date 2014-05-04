@@ -1,6 +1,6 @@
 {
   "name": "com.spend-a-bit.mobile-recharge",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": true,
   "scripts": {
     "start": "node app.js"

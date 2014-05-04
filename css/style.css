@@ -20,8 +20,4 @@ h1 {
 }
 .wrongAmount { color:#d1011a; }
 
-ul.navbar-nav > li {display:inline-block !important;}
-
-.alert { margin: 10px 0 56px 0 !important; }
-
 help-block { font-size: 80%; }

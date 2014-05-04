@@ -1,9 +1,9 @@
 {
   "id": "com.spend-a-bit.mobile-recharge",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "name": "Mobile Recharge",
-  "author": "Umbrel",
-  "contact": "lets@spend-a-bit.com",
+  "author": "umbrellab",
+  "contact": "info@piiko.com",
   "description": "Prepaid mobile recharge using bitcoins in 100+ countries worldwide",
   "icon": "icon.png"
 }
