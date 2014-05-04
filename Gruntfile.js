@@ -23,7 +23,7 @@ module.exports = function(grunt) {
         wrap: '"use strict";\n\n <%= __ngModule %>',
         name: 'config',
         constants: {
-          BASE_URL: "http://www.spend-a-bit.com"
+          BASE_URL: "https://www.piiko.com"
         }
       }
     },

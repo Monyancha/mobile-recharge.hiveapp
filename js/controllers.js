@@ -115,6 +115,7 @@ mobileRechargeApp.controller('mobileRechargeCtrl', ['$scope', '$http', '$sce', '
                   bitcoin.getTransaction(transactionId, function(t) {
                     $scope.setMessage('alert-success', 'Thank you! Your payment is accepted!<br/>Transaction will be processed ' +
                       'as soon as we get 3-6 confirmations from the blockchain.');
+                    $scope.$apply();
                   });
                 }
               });
